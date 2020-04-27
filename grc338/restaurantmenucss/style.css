@@ -1,0 +1,44 @@
+/* CSS DOCUMENT */
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 3em;
+	text-align: center;
+	background-color: rgb(119, 158, 203);
+	font-family: sans-serif;
+	padding: 0.5em 0em 0.5em 0em;
+}
+
+h2 {
+	color: rgb(119, 158, 203);
+	font-size: 2em;
+	text-align: center;
+	font-family: serif;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: rgb(119, 158, 203);
+	font-size: 1.5em;
+	font-family: serif;
+}
+
+h4 {
+	color: rgb(130, 130, 130);
+	font-size: 1.2em;
+	font-family: serif;
+}
+
+p {
+	color: rgb(130, 130, 130);
+	font-size: 1em;
+	font-family: serif;
+}
+
+.price {
+	font-style: italic;
+}
+
+ul {
+	color: rgb(130, 130, 130);
+}
