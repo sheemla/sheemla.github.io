@@ -1,0 +1,91 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/hds5iqs.css");
+img {
+	display: block;
+	width: 100%;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.intro {
+	padding: 0em 20em 0em 20em;
+	overflow: hidden;
+}
+
+div.maincontent {
+	padding: 0em 20em 0em 20em;
+	overflow: hidden;
+}
+
+div.container {
+	max-width: 80em;
+	margin: auto;
+}
+
+h1 {
+	color: #BF3604;
+	font-size: 3em;
+	text-align: center;
+	font-family: poppins, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h2 {
+	color: #73706A;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h3 {
+	color: #7C8C03;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: poppins, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+p {
+	color: #73706A;
+	font-size: 1em;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.8em;
+}
+
+ul {
+	color: #73706A;
+	font-size: 1em;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.8em;
+}
+
+ol {
+	color: #73706A;
+	font-size: 1em;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.8em;
+}
+
+h6 {
+	color: #FFFFFF;
+	background-color: #BF3604;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
