@@ -75,7 +75,7 @@ ul {
 	font-style: italic;
 }
 
-.menu,.location,.about {
+.menu, .location, .about {
 	width: 50em;
 	margin: auto;
 }
