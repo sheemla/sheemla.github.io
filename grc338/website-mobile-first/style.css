@@ -1,0 +1,93 @@
+@import url("https://use.typekit.net/bln0lzm.css");
+body {
+	font-family: poppins, sans-serif;
+	font-style: normal;
+}
+
+header img {
+	width: 30%;
+	margin: 1em auto;
+	display: block;
+}
+
+nav {
+	padding: 0.1em;
+	background-color: #F39AA8;
+}
+
+nav ul {
+	padding: 0%;
+	text-align: center
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	margin-right: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-weight: 700;
+}
+
+nav ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: #FFFFFF;
+}
+
+nav a:hover,
+.clicked {
+	color: #F4E69C;
+}
+
+.home,
+.location,
+.about {
+	width: 60em;
+	margin: auto;
+}
+
+h3,
+p {
+	color: #818282;
+}
+
+h1 {
+	color: #C9B2A2;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: plantagenet cherokee;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	color: #F39AA8;
+	margin: 2em 0em 0em 1.6em;
+	display: block
+}
+
+ul {
+	list-style: none;
+}
+
+.price {
+	font-style: italic;
+}
+
+.menu {
+	width: 50em;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+.home p {
+	text-align: center;
+}
+
+.menu img {
+	width: 80%;
+}
