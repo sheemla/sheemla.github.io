@@ -1,0 +1,100 @@
+@import url("https://use.typekit.net/bln0lzm.css");
+body {
+	font-family: poppins, sans-serif;
+	font-style: normal;
+}
+
+.container {
+	margin: auto;
+}
+
+header img {
+	width: 30%;
+	margin: 1em auto;
+	display: block;
+}
+
+nav {
+	padding: 0.1em;
+	background-color: #F39AA8;
+}
+
+nav ul {
+	padding: 0%;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	margin-right: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-weight: 700;
+}
+
+nav ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: #FFFFFF;
+}
+
+nav a:hover,
+.clicked {
+	color: #F4E69C;
+}
+
+.home,
+.location,
+.about,
+.menu {
+	max-width: 45em;
+	height: auto;
+	margin: auto;
+}
+
+h3,
+p {
+	color: #818282;
+	text-align: center;
+	margin: auto;
+}
+
+.menu p,
+.menu h3 {
+	margin-right: 2em;
+}
+
+h1 {
+	color: #C9B2A2;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	color: #F39AA8;
+	display: block;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+.price {
+	font-style: italic;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 80%;
+	display: block;
+	margin: 1em, auto, 1em, auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
