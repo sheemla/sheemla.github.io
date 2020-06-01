@@ -1,0 +1,80 @@
+<!doctype html>  
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="https://grc-ribeiro.github.io/files/proposal.css">
+      <title>Sheemla Sanjida - Final project proposal</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Final project proposal</h1>
+         <h2>Introduction</h2>
+         <p>Luisse's Cakes </p>
+         <p>Luisse’s Cakes is a small wedding cake business located in Santa Maria, CA. Our goal is to give beautiful cakes that reflect the beauty of love and family. 
+         </p>
+         <h2>Target audience</h2>
+         <p>The audience who uses this site is people to be wedded.</p>
+         <p>These people are looking for someone who can make a cake for their special day and dedicate themselves to depth details in the presentation and ingredients.</p>
+         <h2>Comparative analysis</h2>
+         <h3>Madison Lee's Cakes</h3>
+         <p><a href="https://www.madisonleescakes.com">Madisonleescakes.com</a></p>
+         <img src="madisonlees-cakes-gallery.png" alt="Screenshot of the Gallery page of the Madison Lee's Cakes website." title>
+         <img src="madisonlees-cakes-about.png" alt="Screenshot of the About page of the Madison Lee's Cakes website." title>
+         <h3>Jenny's Wedding Cakes</h3>
+         <p><a href="https://www.jencakes.com">Jencakes.com</a></p>
+         <img src="jencakes-home.png" alt="Screenshot of the Home page of the Jenny's Wedding Cakes website." title>
+         <img src="jencakes-gallery.png" alt="Screenshot of the Gallery page of the Jenny's Wedding Cakes website." title>
+         <h3>Gambinos Bakery: World Famous Bakery &amp; King Cakes</h3>
+         <p><a href="https://gambinos.com">Gambinos.com</a></p>
+         <img src="gambinos-home.png" alt="Screenshot of the Home page of the Gambinos website." title>
+         <img src="gambinos-order-form.png" alt="Screenshot of the Cake Order Form page of the Gambinos website." title>
+         <h2>Website content</h2>
+         <nav>
+            <ul>
+               <li>Home</li>
+               <li>Gallery</li>
+               <li>Our Story</li>
+               <li>Contact Us</li>
+            </ul>
+         </nav>
+         <section>
+            <h1>Home</h1>
+            <p>At Luisse's Cakes, we are dedicated to make your wedding day as magical as it can be. We are very attentive and will reflect the beauty and harmony of your day.</p>
+            <p>[Flowered wedding cake on a table.] </p>
+         </section>
+         <section>
+            <h1>Gallery</h1>
+            <p>Cake 1</p>
+            <p>[Cake 1.]</p>
+            <p>Cake 2</p>
+            <p>[Cake 2.]</p>
+            <p>Cake 3</p>
+            <p>[Cake 3.]</p>
+            <p>Cake 4</p>
+            <p>[Cake 4.]</p>
+            <p>Cake 5</p>
+            <p>[Cake 5.]</p>
+            <p>Cake 6</p>
+            <p>[Cake 6.]</p>
+            <p>Cake 7</p>
+            <p>[Cake 7.]</p>
+            <p>Cake 8</p>
+            <p>[Cake 8.]</p>
+            <p>Cake 9</p>
+            <p>[Cake 9.]</p>
+            <p>Cake 10</p>
+            <p>[Cake 10.]</p>
+            <p>Cake 11</p>
+            <p>[Cake 11.]</p>
+            <p>Cake 12</p>
+            <p>[Cake 12.]</p>
+         </section>
+         <section>
+            <h1>Our Story</h1>
+            <p>Luisse has begun her culinary career right in her own home. She baked cakes for her family. Decorated became her passion, and in 2014 she founded this business. Since then, she gathered a dedicated team to make a couple their dream cake. We pride ourselves that each of our cakes are uniquely made for you.</p>
+            <p>[Baking ingredients and equipment]</p>
+         </section>
+      </div>
+   </body>
+</html>
