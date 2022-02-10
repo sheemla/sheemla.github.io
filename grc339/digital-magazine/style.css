@@ -1,0 +1,26 @@
+/*CSS document*/
+
+body {font-family: mr-eaves-sans, sans-serif;
+    background-color: #f7f7f7;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
