@@ -1,26 +1,89 @@
 /*CSS document*/
 
-body {font-family: mr-eaves-sans, sans-serif;
-    background-color: #f7f7f7;
-    font-weight: 700;
-    font-style: normal;
-
+body {
+  font-family: mr-eaves-modern, sans-serif;
+  background-color: #fffef9;
 }
 
 div.container {
-    max-width: 40em;
-    margin: auto;
+  max-width: 40em;
+  margin: auto;
 }
 
+h2,
+h3,
+p,
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
+  font-size: 1.25em;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.07em;
+  color: #5acefa;
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav ul li a:hover {
+  color: #ffe578;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  color: #f97391;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-top: 0.3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p,
+figcaption {
+  color: #440619;
+}
+
+p {
+  margin-top: 0.2em;
+  margin-bottom: 1.5em;
+}
+
+figcaption {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 200;
+}
+
+footer p {
+  font-weight: 700;
+  font-style: normal;
+  color: #5acefa;
 }
