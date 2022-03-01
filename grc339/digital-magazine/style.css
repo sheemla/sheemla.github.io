@@ -57,7 +57,7 @@ h2,
 h3 {
 	font-weight: 700;
 	color: #f97391;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.01em;
 	margin-top: 0.3em;
 }
 
@@ -113,12 +113,17 @@ ul {
 	padding: 0;
 }
 
+div.container-stories {
+	max-width: 55em;
+	margin: auto;
+}
+
 @media screen and (min-width: 60em) {
 	div.container-stories {
 		max-width: 55em;
 		margin: auto;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: 3fr 1fr;
 		grid-gap: 0 2em;
 	}
 	div.container {
