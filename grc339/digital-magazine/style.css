@@ -6,7 +6,7 @@ body {
 }
 
 div.container {
-	max-width: 70em;
+	max-width: 75em;
 	margin: auto;
 }
 
@@ -67,6 +67,7 @@ h2 {
 
 h3 {
 	font-size: 1.3em;
+    margin-bottom: 0.5em;
 }
 
 h3:hover {
@@ -79,9 +80,11 @@ figcaption {
 }
 
 p {
-	font-size: 1.3em;
+	font-weight: 300;
+    font-size: 1.3em;
 	margin-top: 0.2em;
 	margin-bottom: 1.5em;
+    line-height: 1.3em;
 }
 
 figcaption {
@@ -114,6 +117,11 @@ ul {
 }
 
 div.container-stories {
+	max-width: 55em;
+	margin: auto;
+}
+
+div.container-newsletter {
 	max-width: 55em;
 	margin: auto;
 }
