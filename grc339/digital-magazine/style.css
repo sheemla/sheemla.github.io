@@ -23,23 +23,20 @@ div.container-newsletter {
 div.container-gallery  {
     max-width: 75em;
 	margin: auto;
-        padding-bottom: 1em;
 }
 
 figure.figure-gallery {
-    width: 100%;
+    margin: 0;
+    width: calc(100%-2em);
     position: absolute;
-    left: 100%;
-    transition: left 400ms, opacity 400ms;
     opacity: 0;
+    transition: opacity .5s;
 }
 
 main.gallery {
-    width: 100%;
-    margin: auto;
     position: relative;
-    padding-bottom: calc(56% + 3em);
     overflow: hidden;
+    padding-bottom: calc(68% + 3em);
 }
 
 nav.nav-gallery {
@@ -59,7 +56,6 @@ input:nth-of-type(5):checked ~ main.gallery figure.figure-gallery:nth-of-type(5)
 input:nth-of-type(6):checked ~ main.gallery figure.figure-gallery:nth-of-type(6),
 input:nth-of-type(7):checked ~ main.gallery figure.figure-gallery:nth-of-type(7),
 input:nth-of-type(8):checked ~ main.gallery figure.figure-gallery:nth-of-type(8) {
-    left: 0;
     opacity: 1;
 }
 
@@ -162,24 +158,76 @@ figure {
 
 figure.newsletter {
     width: 70%;
-    margin: auto
 }
 
-img.logo {
-	width: 50%
-}
-
-img {
-	width: 100%
-}
 
 ul {
 	list-style-type: none;
 	padding: 0;
 }
+section.personal-info ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
 
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li select {
+    flex: 0 0 10em;
+    box-sizing: border-box;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 300;
+    color: #440619;
+}
 
+section.personal-info ul li label {
+    flex: 0 0 3em;
+	font-family: mr-eaves-modern, sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #440619;
+}
 
+section.options ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.options ul li {
+    flex: 0 0 10em;
+}
+
+section.options ul li label {
+	font-family: mr-eaves-modern, sans-serif;
+font-size: 1.3em;
+    font-weight: 300;
+    color: #440619;
+}
+textarea {
+box-sizing: border-box;
+	display: block;
+	width: 80%;
+	height: 7em;
+	background: #ffffff;
+    border-radius: 10px;
+	border: .125em solid #440619;
+	font-family: mr-eaves-modern, sans-serif;
+	color: #440619;
+    margin-top: 1em
+}
+
+button {
+	background-color: #f97391;
+	border: none;
+	color: #fffef9;
+	font-size: 1em;
+	font-family: mr-eaves-modern, sans-serif;
+	padding: .75em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+	cursor: pointer;
+}
 
 @media screen and (min-width: 60em) {
 	div.container-stories {
