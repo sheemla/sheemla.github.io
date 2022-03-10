@@ -29,27 +29,31 @@
                </ul>
             </nav>
          </header>
-       </div>
-       <div class="container-newsletter">    
-        <form>
+      </div>
+      <div class="container-newsletter">
+         <form>
             <figure class="newsletter">
-            <img src="subscribe-to-newsletter.jpg" alt="Subscribe to our sweet newsletter.">
-         </figure>
+               <img src="subscribe-to-newsletter.jpg" alt="Subscribe to our sweet newsletter.">
+            </figure>
             <section class="personal-info">
                <h2>Personal Information</h2>
                <ul class="personal-info">
-                  <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
-                  <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                  <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your name" /></li>
+                  <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="your email" /></li>
                </ul>
             </section>
             <section class="options">
                <h2>Newsletter Options</h2>
                <p>Choose all that you wish to subscribe to</p>
                <ul class="options">
-                  <li><input type="checkbox" id="hot-spots" value="hot-spots" /> <label for="a1-sauce">Hot Spots</label></li>
-                  <li><input type="checkbox" id="new-flavors" value="new-flavors" /> <label for="new-flavors">New flavors</label></li>
                   <li><input type="checkbox" id="recipes" value="recipes" /> <label for="recipes">Recipes</label></li>
+                  <li><input type="checkbox" id="hot-spots" value="hot-spots" /> <label for="a1-sauce">Hot spots</label></li>
+                  <li><input type="checkbox" id="new-flavors" value="new-flavors" /> <label for="new-flavors">New flavors</label></li>
                </ul>
+            </section>
+            <section>
+               <h2>Any comments or questions?</h2>
+               <textarea id="notes" name="notes"></textarea>
             </section>
             <section class="submit">
                <button type="submit">Submit</button>
