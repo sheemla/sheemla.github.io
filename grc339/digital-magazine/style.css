@@ -55,7 +55,7 @@ nav ul li a:hover {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 h2,
@@ -64,6 +64,7 @@ h3 {
 	color: #f97391;
 	letter-spacing: 0.01em;
 	margin-top: 0.3em;
+	margin-bottom: 0.5em;
 }
 
 h2 {
@@ -72,11 +73,10 @@ h2 {
 
 h3 {
 	font-size: 1.3em;
-    margin-bottom: 0.5em;
 }
 
 h3:hover {
- color: #ffe578;
+	color: #ffe578;
 }
 
 p,
@@ -86,10 +86,10 @@ figcaption {
 
 p {
 	font-weight: 300;
-    font-size: 1.3em;
+	font-size: 1.3em;
 	margin-top: 0.2em;
 	margin-bottom: 1.5em;
-    line-height: 1.3em;
+	line-height: 1.3em;
 }
 
 figcaption {
@@ -108,50 +108,52 @@ figure {
 	margin: 1em 0em 1.5em 0em;
 }
 
+
 /*Photo Gallery*/
 
-div.container-gallery  {
-    max-width: 75em;
+div.container-gallery {
+	max-width: 75em;
 	margin: auto;
 }
 
 figure.figure-gallery {
-    margin: 0;
-    width: calc(100%-2em);
-    position: absolute;
-    opacity: 0;
-    transition: opacity .5s;
+	margin: 0;
+	width: calc(100%-2em);
+	position: absolute;
+	opacity: 0;
+	transition: opacity .5s;
 }
 
 main.gallery {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: calc(68% + 3em);
+	position: relative;
+	overflow: hidden;
+	padding-bottom: calc(68% + 3em);
 }
 
 nav.nav-gallery {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 label {
-    flex: 1 0 6em;
+	flex: 1 0 6em;
 }
 
-input:nth-of-type(1):checked ~ main.gallery figure.figure-gallery:nth-of-type(1),
-input:nth-of-type(2):checked ~ main.gallery figure.figure-gallery:nth-of-type(2),
-input:nth-of-type(3):checked ~ main.gallery figure.figure-gallery:nth-of-type(3),
-input:nth-of-type(4):checked ~ main.gallery figure.figure-gallery:nth-of-type(4),
-input:nth-of-type(5):checked ~ main.gallery figure.figure-gallery:nth-of-type(5),
-input:nth-of-type(6):checked ~ main.gallery figure.figure-gallery:nth-of-type(6),
-input:nth-of-type(7):checked ~ main.gallery figure.figure-gallery:nth-of-type(7),
-input:nth-of-type(8):checked ~ main.gallery figure.figure-gallery:nth-of-type(8) {
-    opacity: 1;
+input:nth-of-type(1):checked~main.gallery figure.figure-gallery:nth-of-type(1),
+input:nth-of-type(2):checked~main.gallery figure.figure-gallery:nth-of-type(2),
+input:nth-of-type(3):checked~main.gallery figure.figure-gallery:nth-of-type(3),
+input:nth-of-type(4):checked~main.gallery figure.figure-gallery:nth-of-type(4),
+input:nth-of-type(5):checked~main.gallery figure.figure-gallery:nth-of-type(5),
+input:nth-of-type(6):checked~main.gallery figure.figure-gallery:nth-of-type(6),
+input:nth-of-type(7):checked~main.gallery figure.figure-gallery:nth-of-type(7),
+input:nth-of-type(8):checked~main.gallery figure.figure-gallery:nth-of-type(8) {
+	opacity: 1;
 }
 
 div.container-gallery input {
-    display: none;
+	display: none;
 }
+
 
 /*Newsletter*/
 
@@ -161,64 +163,65 @@ div.container-newsletter {
 }
 
 figure.newsletter {
-    width: 70%;
+	width: 70%;
 }
-
 
 ul {
 	list-style-type: none;
 	padding: 0;
 }
+
 section.personal-info ul li {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
 }
 
 section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li select {
-    flex: 0 0 10em;
-    box-sizing: border-box;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: 300;
-    color: #440619;
+	flex: 0 0 10em;
+	box-sizing: border-box;
+	font-family: mr-eaves-modern, sans-serif;
+	font-weight: 300;
+	color: #440619;
 }
 
 section.personal-info ul li label {
-    flex: 0 0 3em;
+	flex: 0 0 3em;
 	font-family: mr-eaves-modern, sans-serif;
-    font-size: 1.3em;
-    font-weight: 300;
-    color: #440619;
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #440619;
 }
 
 section.options ul {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 section.options ul li {
-    flex: 0 0 10em;
+	flex: 0 0 10em;
 }
 
 section.options ul li label {
 	font-family: mr-eaves-modern, sans-serif;
-font-size: 1.3em;
-    font-weight: 300;
-    color: #440619;
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #440619;
 }
+
 textarea {
-box-sizing: border-box;
+	box-sizing: border-box;
 	display: block;
 	width: 80%;
 	height: 7em;
 	background: #ffffff;
-    border-radius: 10px;
+	border-radius: 10px;
 	border: .125em solid #440619;
 	font-family: mr-eaves-modern, sans-serif;
 	color: #440619;
-    margin-top: 1em
+	margin-top: 1em
 }
 
 button {
@@ -228,8 +231,8 @@ button {
 	font-size: 1em;
 	font-family: mr-eaves-modern, sans-serif;
 	padding: .75em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	cursor: pointer;
 }
 
@@ -246,11 +249,9 @@ button {
 		grid-template-columns: 3fr 1fr;
 		grid-gap: 0 2em;
 	}
-    
-     div.container-newsletter {
-        margin: auto;
-      }
-
+	div.container-newsletter {
+		margin: auto;
+	}
 	header {
 		grid-column: 1/3;
 	}
